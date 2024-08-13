@@ -6,7 +6,9 @@ using namespace std;
 
 int main()
 {
+// cout indica o que vai aparecer na tela
 	cout << "Estrutura de Dados - Fatec" << endl;
+ cout << "Aluno Marcos Filipe P. Marinho" << endl;
 	
 	cout << "Tipos Numericos\n";
 	cout << "===============\n";
@@ -35,7 +37,7 @@ int main()
 
 	cout << "\nTipo string\n";
 	cout << "===========\n";
-	string texto = "Estrutura de Dados vai ser moleza!";
+	string texto = "Estrutura de Dados vai ser muito difícil!";
 	cout << "string texto = \"" << texto << "\" ocupa " << sizeof(texto) << " bytes\n";
 
 	cout << "\nPonteiros\n";
@@ -59,6 +61,7 @@ int main()
 	int minutos = 0;
 
 	cout << "Digite seu nome: ";
+// cin indica o que o usuário vai inserir na tela (muda os <<    pra >>)
 	cin >> nome;
 	cout << "Digite sua idade: ";
 	cin >> idade;
